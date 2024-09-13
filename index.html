@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavor & Dough</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Flavor & Dough</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Who we are
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Menu
+                        </a>
+                    </li>
+
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="img/images/slides/slide1.png" class="d-block w-100"
+                            alt="First image of the restaurant Flavor & Dough">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/images/slides/slide2.png" class="d-block w-100"
+                            alt="Second image of the restaurant Flavor & Dough">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/images/slides/slide3.png" class="d-block w-100"
+                            alt="Third image of the restaurant Flavor & Dough">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/images/restaurante.jpg" class="d-block w-100 rounded"
+                                alt="Interior space of the restaurant Flavor & Dough">
+                        </div>
+                        <div class="col-md-7 mt-3 md-0">
+                            <h2 class="section-title">About <span class="text-colored">the Restaurant</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium suscipit deserunt
+                                commodi fugiat obcaecati recusandae, quo possimus rem architecto! Necessitatibus, cum
+                                aperiam doloremque architecto totam alias fuga adipisci voluptatum eum.
+                            </p>
+                            <h3 class="section-title">About <span class="text-colored">the Space</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat consequatur debitis
+                                error autem cumque, consequuntur soluta, quasi provident similique minima dolorem
+                                voluptas quam. Possimus nobis hic rerum delectus sunt eligendi.
+                            </p>
+                            <ul>
+                                <li>Item 1: Cozy atmosphere</li>
+                                <li>Item 2: Varied menu</li>
+                                <li>Item 3: Excellent service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de eventos -->
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">For All <span class="text-colored">Occasions</span></h2>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img src="img/images/eventos/aniversario.jpg" alt="Image of a birthday party"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Birthdays
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda mollitia, repellat
+                            obcaecati labore laborum et recusandae facilis. Voluptatum debitis ex dignissimos porro quam
+                            sit distinctio similique reiciendis? Dolorem, nulla expedita.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/images/eventos/casamento.jpg" alt="Image of a wedding reception"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Wedding Reception
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda mollitia, repellat
+                            obcaecati labore laborum et recusandae facilis. Voluptatum debitis ex dignissimos porro quam
+                            sit distinctio similique reiciendis? Dolorem, nulla expedita.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/images/eventos/confraternizacoes.jpg" alt="Image of a gathering"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Gatherings
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda mollitia, repellat
+                            obcaecati labore laborum et recusandae facilis. Voluptatum debitis ex dignissimos porro quam
+                            sit distinctio similique reiciendis? Dolorem, nulla expedita.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção do Cardápio -->
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Our <samp class="text-colored">Menu</samp>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool"
+                                class="nav-link text-colored active">Non-Alcoholic Drinks</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas"
+                                class="nav-link text-colored">Alcoholic Drinks</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas"
+                                class="nav-link text-colored">Appetizers</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#prato-principal"
+                                class="nav-link text-colored">Main Course</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesa"
+                                class="nav-link text-colored">Dessert</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <!-- Tab de Bebidas Não Alcoólicas -->
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <!-- Primeira bebida (Coca-Cola) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/bebidas/coca-cola.jpg"
+                                            alt="Image of Coca-Cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- Segunda bebida (Suco) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/bebidas/suco.jpg"
+                                            alt="Image of Juice">
+                                        <h5 class="text-colored fw-bold mt-2">Juice</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- Adicionar outras bebidas conforme necessário -->
+                                </div>
+                            </div>
+                            <!-- Tab de Bebidas Alcoólicas -->
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <!-- Primeira bebida (Cerveja) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/bebidas/cerveja.jpg"
+                                            alt="Image of Beer">
+                                        <h5 class="text-colored fw-bold mt-2">Beer</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- Segunda bebida (Vinho) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/bebidas/vinho.jpg"
+                                            alt="Image of Wine">
+                                        <h5 class="text-colored fw-bold mt-2">Wine</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tab de Entradas -->
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <!-- Primeira entrada -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/entradas/entrada.jpg"
+                                            alt="Image of appetizer">
+                                        <h5 class="text-colored fw-bold mt-2">Appetizer 1</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- Segunda entrada -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/entradas/entrada.jpg"
+                                            alt="Image of appetizer">
+                                        <h5 class="text-colored fw-bold mt-2">Appetizer 2</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tab de Prato Principal -->
+                            <div class="tab-pane" id="prato-principal">
+                                <div class="row">
+                                    <!-- Primeiro prato (Pizza) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/pratos/pizza.jpg"
+                                            alt="Image of Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- Segundo prato (Salmão) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/pratos/salmao.jpg"
+                                            alt="Image of Salmon">
+                                        <h5 class="text-colored fw-bold mt-2">Salmon</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tab de sobremesa -->
+                            <div class="tab-pane" id="sobremesa">
+                                <div class="row">
+                                    <!-- Primeiro prato (Bolo) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/sobremesas/bolo.jpg"
+                                            alt="Image of Cake">
+                                        <h5 class="text-colored fw-bold mt-2">Cake</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- Segundo prato (cupcake) -->
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/images/cardapio/sobremesas/cupcake.jpg"
+                                            alt="Image of Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Outras tabs podem ser adicionadas conforme necessário -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Contact <span class="text-colored">Us</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5"> <!-- Corrigido: de 'cow-md-7' para 'col-md-7' -->
+                        <form>
+                            <div class="mb3">
+                                <label for="nome" class="form-label fw-bold text-colored">Your Name</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb3">
+                                <label for="email" class="form-label fw-bold text-colored">Your Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                                <!-- Adicionado um campo de email -->
+                            </div>
+                            <div class="mb3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Your Phone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                                <!-- Adicionado um campo de telefone -->
+                            </div>
+                            <div class="mb3">
+                                <label for="mensagem" class="form-label fw-bold text-colored mensagem">Your
+                                    Message</label>
+                                <textarea id="mensagem" class="form-control" rows="3" required></textarea>
+                                <!-- Adicionado um campo de mensagem -->
+                            </div>
+                            <button type="submit" class="btn fw-bold mt-3">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Social Media
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Address
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo 123 - Ceara - Brasil
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
